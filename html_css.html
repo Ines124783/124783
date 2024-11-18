@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal Archive</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #eee;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .left-column {
+            flex: 1;
+            border-right: 1px solid #ccc;
+            padding-right: 20px;
+        }
+        .right-column {
+            flex: 3;
+            padding-left: 20px;
+        }
+        .issue {
+            margin-bottom: 20px;
+        }
+        .article {
+            margin-bottom: 15px;
+        }
+        .article a {
+            text-decoration: none;
+            color: red;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Journal Archive</h1>
+    </header>
+    <nav>
+        <a href="#">Начало</a>
+        <a href="#">Цели и обхват</a>
+        <a href="#">Редакционна колегия</a>
+        <a href="#">Указания към авторите</a>
+        <a href="#">Етична политика</a>
+        <a href="#">Архив</a>
+    </nav>
+    <div class="container">
+        <div class="left-column">
+            <h3>Текущо издание</h3>
+            <p><strong>Издание 2019</strong></p>
+            <ul>
+                <li>бр. 4/2019 г.</li>
+                <li>бр. 3/2019 г.</li>
+                <li>бр. 2/2019 г.</li>
+                <li>бр. 1/2019 г.</li>
+            </ul>
+            <p><strong>Издание 2018</strong></p>
+            <p><strong>Издание 2017</strong></p>
+            <p><strong>Издание 2016</strong></p>
+        </div>
+        <div class="right-column">
+            <div class="issue">
+                <h3>Articles</h3>
+                <div class="article">
+                    <p>Мария Станимирова Товушева</p>
+                    <a href="#">Изтегли статията</a>
+                </div>
+                <div class="article">
+                    <p>Красимира Найденова</p>
+                    <a href="#">Изтегли статията</a>
+                </div>
+                <div class="article">
+                    <p>Радина Димитрова Момчилова</p>
+                    <a href="#">Изтегли статията</a>
+                </div>
+                <div class="article">
+                    <p>Андрея Андреева Андреев</p>
+                    <a href="#">Изтегли статията</a>
+                </div>
+                <div class="article">
+                    <p>Златозар Йорданов</p>
+                    <a href="#">Изтегли статията</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Контакти: Икономически университет - Варна</p>
+    </footer>
+</body>
+</html>
